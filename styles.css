@@ -1,29 +1,38 @@
 body {
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto";
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    padding: 0 5rem;
+    gap: 4rem;
+    padding: 0 7rem;
     background-color: #1F2937;
 }
 
 /* header-top */
 .header-top {
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: .5rem;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0;
 }
+
+/* First two a tags in header-top */
+.header-links a:first-child, .header-links a:first-child + a {
+    margin-right: 1rem;
+}
+
 
 .header-link {
     font-size: 18px;
@@ -35,20 +44,41 @@ body {
 .header-bot {
     display: flex;
     gap: 1rem;
-    padding: 3rem 0;
+    padding-bottom: 6rem;
+    font-size: 16px;
+    color: #E5E7EB;
+
 }
 
 .header-message {
     flex: 1;
-    /* text-align: left; */
+}
+
+.header-message p {
+    margin: 0;
 }
 
 .awesome {
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8
+    color: #F9FAF8;
+}
+
+.text {
+    padding-bottom: 7px;
 }
 
 .header-img {
     flex: 1;
+    background-color: #747474;
+    text-align: center;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-weight: 800;
+    border: none;
+    padding: 2px 18px;
+    border-radius: 5px;
 }
