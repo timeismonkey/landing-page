@@ -13,7 +13,7 @@ body {
     background-color: #1F2937;
 }
 
-/* header-top */
+/* .header-top */
 .header-top {
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ body {
     padding: .5rem;
 }
 
-/* header-bot */
+/* .header-bot */
 .header-bot {
     display: flex;
     padding-bottom: 6rem;
@@ -75,4 +75,61 @@ button {
     border: none;
     padding: 2px 18px;
     border-radius: 5px;
+}
+
+/* .body */
+.body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+
+/* .body-top */
+.body-top {
+    padding: 8rem 35rem;
+}
+.body-top > p {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    text-align: center;
+    width: 270px;
+}
+
+.card-img {
+    border: #3882F6 solid 2px;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+/* .body-mid */
+.body-mid {
+    padding: 10rem 35rem;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+.signature {
+    text-align: right;
+}
+
+/* .body-bot */
+.body-bot {
 }
